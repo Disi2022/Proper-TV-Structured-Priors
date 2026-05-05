@@ -1,69 +1,42 @@
-running with pymc 5.15.0
-## 🧠 Overview
+## Overview
 
 This repository contains the implementation of the methods described in:
 
-**Disi Lin; Martin Berggren; Tommy Löfstedt**\
-*Generalized TV--$\ell_p$ Structured Priors for Bayesian $T_1$ Mapping*\
-Machine Learning for Biomedical Imaging
+**Generalized TV--$\ell_p$ Structured Priors for Bayesian $T_1$ Mapping***\
+*Disi Lin; Martin Berggren; Tommy Löfstedt*
 
-This project focuses on **\[brief problem description\]** using **\[main
-methods/techniques\]**.
+This paper proposes an extended family of structured spatial priors that incorporates the total variation (TV) function with $\ell_p$ norms. 
+The prior is proven to be proper and incorporated into a Bayesian regression framework to enable uncertainty quantification in $T_1$ mapping, with posterior inference performed using the No-U-Turn Sampler (NUTS).
 
-------------------------------------------------------------------------
 
-## 📁 Repository Structure
-
-    ├── data/               # Instructions or scripts to access data
-    ├── D_matrix/           # Instructions or scripts to access data
-    ├── utils/              # Helper functions
-    ├── results/            # Output results / figures
-    ├── configs/            # Configuration files
-    ├── requirements.txt    # Python dependencies
-    └── README.md
 
 ------------------------------------------------------------------------
 
-## ⚙️ Installation
+## Dependencies
 
-``` bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-``` bash
-python -m venv venv
-source venv/bin/activate
-```
-
-``` bash
-pip install -r requirements.txt
-```
-
-------------------------------------------------------------------------
-
-## 📊 Data
-
--   Dataset: **\[Dataset Name\]**\
--   Access: **\[Link or instructions\]**
+pymc 5.11.0\
+pytensor 2.20.0\
+numpyro 0.15.0\
+arviz 0.18.0\
+matplotlib 3.8.4
 
 ------------------------------------------------------------------------
 
 ## 🚀 Usage
 
-### Training
+### Run different methods
 
 ``` bash
-python scripts/train.py --config configs/train.yaml
+python mx_xxxx.py 
 ```
 
-### Evaluation
+### Plot results
 
 ``` bash
-python scripts/evaluate.py --model_path path/to/model
+python fig_pdfs.py
 ```
 
 ------------------------------------------------------------------------
 
-## 📬 Contact
--   Email: disi.lin@umu.se; disiumu@gmail.com
+## Contact
+- disi.lin@umu.se; disiumu@gmail.com
