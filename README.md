@@ -4,7 +4,7 @@ running with pymc 5.15.0
 This repository contains the implementation of the methods described in:
 
 **Disi Lin; Martin Berggren; Tommy Löfstedt**\
-*Generalized TV--$\ell_p$ Structured Priors for \mbox{Bayesian $T_1$ Mapping}*\
+*Generalized TV--$\ell_p$ Structured Priors for Bayesian $T_1$ Mapping*\
 Machine Learning for Biomedical Imaging
 
 This project focuses on **\[brief problem description\]** using **\[main
