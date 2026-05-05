@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the methods described in:
 
-**Generalized TV--$\ell_p$ Structured Priors for Bayesian $T_1$ Mapping***\
+**Generalized TV--$\ell_p$ Structured Priors for Bayesian $T_1$ Mapping**\
 *Disi Lin; Martin Berggren; Tommy Löfstedt*
 
 This paper proposes an extended family of structured spatial priors that incorporates the total variation (TV) function with $\ell_p$ norms. 
