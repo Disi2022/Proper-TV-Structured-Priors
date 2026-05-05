@@ -66,6 +66,4 @@ python scripts/evaluate.py --model_path path/to/model
 ------------------------------------------------------------------------
 
 ## 📬 Contact
-
--   Name: Disi Lin
 -   Email: disi.lin@umu.se; disiumu@gmail.com
