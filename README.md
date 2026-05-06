@@ -22,9 +22,9 @@ matplotlib 3.8.4
 
 ------------------------------------------------------------------------
 
-## 🚀 Usage
+## Usage
 
-### Run different methods
+### Run different methods to get results
 
 ``` bash
 python mx_xxxx.py 
@@ -39,4 +39,4 @@ python fig_pdfs.py
 ------------------------------------------------------------------------
 
 ## Contact
-- disi.lin@umu.se; disiumu@gmail.com
+- disi.lin@umu.se; disilinumu@gmail.com
